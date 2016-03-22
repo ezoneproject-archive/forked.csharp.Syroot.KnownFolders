@@ -1,5 +1,5 @@
 # KnownFolders
-.NET classes to retrieving and change all special Windows folders
+.NET classes to retrieve and change all special Windows folder paths
 
 ## Introduction
 Since many years, back to Windows 98 as far as I remember, users have special folders in their home directory, called "My Documents", "My Music", "My Pictures" or "My Videos". These were kept relatively untouched up to XP, and their path was retrieved easily: Simply calling the `System.Environment.GetFolderPath()` function and passing an enumeration value of `System.Environment.SpecialFolder` was enough, since the enumeration contains entries for `MyDocuments`, `MyMusic`, `MyPictures` and so on.
