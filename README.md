@@ -6,7 +6,7 @@ Since many years, back to Windows 98 as far as I remember, users have special fo
 
 However, the newer folders which exist since Windows Vista, are not listed in the enumeration and cannot be retrieved that way. The reason for this is that the .NET framework was not updated to mirror the changes in the user home directory, and people started to use hacky and even wrong solutions to get the folder paths to the other folders. The correct way to retrieve (and even set) these paths are wrapped in this NuGet package, in an object oriented way you would expect from .NET.
 
-To read more about why most of the "lazy" solutions are wrong, have a look at my [CodeProject article](http://www.codeproject.com/Articles/878605/Getting-All-Special-Folders-in-NET), which was the motivation to create this NGet package.
+To read more about why most of the "lazy" solutions are wrong, have a look at my [CodeProject article](http://www.codeproject.com/Articles/878605/Getting-All-Special-Folders-in-NET), which was the motivation to create this NuGet package.
 
 ## Usage
 
