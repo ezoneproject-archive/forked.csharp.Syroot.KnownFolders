@@ -24,9 +24,9 @@ To retrieve a `KnownFolder` instance, there are two ways, depending on what you 
   1. The easiest way is to use one of the many properties in the static `KnownFolders` class, which contains one property for each special folder.
   2. If you want to get the paths of another user than the current one (required rights assumed), you have to use the constructor of the `KnownFolder` class. You pass in a value of the `KnownFolderType` enumeration (which contains one member for each special folder) and the `WindowsIdentity` instance of the user to impersonate.
 
-The test application included in the source shows how to enumerate all known folders of the Windows system.
+The [test application code](https://github.com/Syroot/KnownFolders/blob/master/TestApplication/Program.cs) shows how to enumerate all known folders of a Windows system.
 
-Please note that the CodeProject article linked above shows a different API, I polished it for this NuGet to be more object-oriented as it also provides more features.
+Please note that the CodeProject article linked above shows a different API, I polished it for this NuGet package to be more object-oriented as it also provides more features.
 
 ## License
 
