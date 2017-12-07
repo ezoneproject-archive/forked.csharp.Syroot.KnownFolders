@@ -27,3 +27,7 @@ To retrieve a `KnownFolder` instance, there are two ways, depending on what you 
 The [test application code](https://github.com/Syroot/KnownFolders/blob/master/src/TestApplication/Program.cs) shows how to enumerate all known folders of a Windows system.
 
 Please note that the CodeProject article linked above shows a different API, I polished it for this NuGet package to be more object-oriented as it also provides more features.
+
+## KnownFolders
+
+You can ask questions and suggest features on Discord aswell. Feel free to [join the KnownFolders channel on the Syroot server](https://discord.gg/YtfcU79)!
