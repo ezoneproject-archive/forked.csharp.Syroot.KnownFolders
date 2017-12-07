@@ -28,6 +28,6 @@ The [test application code](https://github.com/Syroot/KnownFolders/blob/master/s
 
 Please note that the CodeProject article linked above shows a different API, I polished it for this NuGet package to be more object-oriented as it also provides more features.
 
-## KnownFolders
+## Support
 
 You can ask questions and suggest features on Discord aswell. Feel free to [join the KnownFolders channel on the Syroot server](https://discord.gg/YtfcU79)!
