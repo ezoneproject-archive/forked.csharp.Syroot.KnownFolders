@@ -1,10 +1,10 @@
 # KnownFolders
-.NET library to retrieve and change all special Windows folder paths
 
 ## Introduction
+
 Since many years, back to Windows 98 as far as I remember, users have special folders in their home directory, called "My Documents", "My Music", "My Pictures" or "My Videos". These were kept relatively untouched up to XP, and their path was retrieved easily: Simply calling the `System.Environment.GetFolderPath()` function and passing an enumeration value of `System.Environment.SpecialFolder` was enough, since the enumeration contains entries for `MyDocuments`, `MyMusic`, `MyPictures` and so on.
 
-However, the newer folders which exist since Windows Vista, are not listed in the enumeration and cannot be retrieved that way. The reason for this is that the .NET framework was not updated to mirror the changes in the user home directory, and people started to use hacky and even wrong solutions to get the folder paths to the other folders. The correct way to retrieve (and even set) these paths are wrapped in this NuGet package, in an object oriented way you would expect from .NET.
+However, the newer folders which exist since Windows Vista are not listed in the enumeration and cannot be retrieved that way. The reason is that the .NET framework was not updated to mirror the changes in the user home directory, and people (including me) started to use hacky and even wrong solutions to get the folder paths to the other folders. The correct way to retrieve (and even set) these paths are wrapped in this NuGet package, in an object oriented way you would expect from .NET.
 
 To read more about why most of the "lazy" solutions are wrong, have a look at my [CodeProject article](http://www.codeproject.com/Articles/878605/Getting-All-Special-Folders-in-NET), which was the motivation to create this NuGet package.
 

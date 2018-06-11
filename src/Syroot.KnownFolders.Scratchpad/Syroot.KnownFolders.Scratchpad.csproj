@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Syroot.KnownFolders.Scratchpad</AssemblyName>
+        <AssemblyTitle>KnownFolders Scratchpad</AssemblyTitle>
+        <Copyright>(c) Syroot, licensed under MIT</Copyright>
+        <LangVersion>latest</LangVersion>
+        <OutputType>Exe</OutputType>
+        <TargetFrameworks>net452</TargetFrameworks>
+        <VersionPrefix>1.1.0</VersionPrefix>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Syroot.KnownFolders\Syroot.KnownFolders.csproj" />
+    </ItemGroup>
+</Project>

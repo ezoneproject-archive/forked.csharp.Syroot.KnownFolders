@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Syroot.KnownFolders</AssemblyName>
+        <AssemblyTitle>KnownFolders</AssemblyTitle>
+        <Authors>Syroot</Authors>
+        <Copyright>(c) Syroot, licensed under MIT</Copyright>
+        <Description>.NET library for retrieving and changing all special Windows folder paths.</Description>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <LangVersion>latest</LangVersion>
+        <PackageIconUrl>https://raw.githubusercontent.com/Syroot/KnownFolders/master/res/Logo.png</PackageIconUrl>
+        <PackageId>Syroot.Windows.IO.KnownFolders</PackageId>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/Syroot/KnownFolders/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/Syroot/KnownFolders</PackageProjectUrl>
+        <PackageReleaseNotes>Free string memory after retrieving path. Update tooling.</PackageReleaseNotes>
+        <PackageTags>windows;shell;special folder;folder;folders</PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/Syroot/KnownFolders</RepositoryUrl>
+        <TargetFrameworks>net452</TargetFrameworks>
+        <VersionPrefix>1.1.0</VersionPrefix>
+    </PropertyGroup>
+</Project>
