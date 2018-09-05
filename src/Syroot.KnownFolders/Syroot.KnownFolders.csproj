@@ -11,7 +11,7 @@
         <PackageId>Syroot.Windows.IO.KnownFolders</PackageId>
         <PackageLicenseUrl>https://raw.githubusercontent.com/Syroot/KnownFolders/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/Syroot/KnownFolders</PackageProjectUrl>
-        <PackageReleaseNotes>Free string memory after retrieving path. Update tooling.</PackageReleaseNotes>
+        <PackageReleaseNotes>Added folders introduced with Windows 10.</PackageReleaseNotes>
         <PackageTags>windows;shell;special folder;folder;folders</PackageTags>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/Syroot/KnownFolders</RepositoryUrl>
