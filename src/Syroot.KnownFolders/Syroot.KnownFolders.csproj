@@ -16,6 +16,6 @@
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/Syroot/KnownFolders</RepositoryUrl>
         <TargetFrameworks>net452</TargetFrameworks>
-        <VersionPrefix>1.1.0</VersionPrefix>
+        <VersionPrefix>1.2.0</VersionPrefix>
     </PropertyGroup>
 </Project>

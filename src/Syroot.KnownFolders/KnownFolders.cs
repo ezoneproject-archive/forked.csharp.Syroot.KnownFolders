@@ -26,6 +26,34 @@ namespace Syroot.Windows.IO
         public static KnownFolder AdminTools => GetInstance(KnownFolderType.AdminTools);
 
         /// <summary>
+        /// The per-user app desktop folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\Desktop&quot;.
+        /// </summary>
+        public static KnownFolder AppDataDesktop => GetInstance(KnownFolderType.AppDataDesktop);
+
+        /// <summary>
+        /// The per-user app documents folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\Documents&quot;.
+        /// </summary>
+        public static KnownFolder AppDataDocuments => GetInstance(KnownFolderType.AppDataDocuments);
+
+        /// <summary>
+        /// The per-user app favorites folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\Favorites&quot;.
+        /// </summary>
+        public static KnownFolder AppDataFavorites => GetInstance(KnownFolderType.AppDataFavorites);
+
+        /// <summary>
+        /// The per-user app program data folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\ProgramData&quot;.
+        /// </summary>
+        public static KnownFolder AppDataProgramData => GetInstance(KnownFolderType.AppDataProgramData);
+
+        /// <summary>
         /// The per-user Application Shortcuts folder. Introduced in Windows 8.
         /// Defaults to &quot;%LOCALAPPDATA%\Microsoft\Windows\Application Shortcuts&quot;.
         /// </summary>
@@ -116,10 +144,22 @@ namespace Syroot.Windows.IO
         public static KnownFolder DocumentsLibrary => GetInstance(KnownFolderType.DocumentsLibrary);
 
         /// <summary>
+        /// The per-user localized Documents folder.
+        /// Defaults to &quot;%USERPROFILE%\Documents&quot;.
+        /// </summary>
+        public static KnownFolder DocumentsLocalized => GetInstance(KnownFolderType.DocumentsLocalized);
+
+        /// <summary>
         /// The per-user Downloads folder.
         /// Defaults to &quot;%USERPROFILE%\Downloads&quot;.
         /// </summary>
         public static KnownFolder Downloads => GetInstance(KnownFolderType.Downloads);
+
+        /// <summary>
+        /// The per-user localized Downloads folder.
+        /// Defaults to &quot;%USERPROFILE%\Downloads&quot;.
+        /// </summary>
+        public static KnownFolder DownloadsLocalized => GetInstance(KnownFolderType.DownloadsLocalized);
 
         /// <summary>
         /// The per-user Favorites folder.
@@ -200,10 +240,22 @@ namespace Syroot.Windows.IO
         public static KnownFolder MusicLibrary => GetInstance(KnownFolderType.MusicLibrary);
 
         /// <summary>
+        /// The per-user localized Music folder.
+        /// Defaults to &quot;%USERPROFILE%\Music&quot;.
+        /// </summary>
+        public static KnownFolder MusicLocalized => GetInstance(KnownFolderType.MusicLocalized);
+
+        /// <summary>
         /// The per-user Network Shortcuts folder.
         /// Defaults to &quot;%APPDATA%\Microsoft\Windows\Network Shortcuts&quot;.
         /// </summary>
         public static KnownFolder NetHood => GetInstance(KnownFolderType.NetHood);
+
+        /// <summary>
+        /// The per-user 3D Objects folder. Introduced in Windows 10.
+        /// Defaults to &quot;%USERPROFILE%\3D Objects&quot;.
+        /// </summary>
+        public static KnownFolder Objects3D => GetInstance(KnownFolderType.Objects3D);
 
         /// <summary>
         /// The per-user Original Images folder. Introduced in Windows Vista.
@@ -218,16 +270,22 @@ namespace Syroot.Windows.IO
         public static KnownFolder PhotoAlbums => GetInstance(KnownFolderType.PhotoAlbums);
 
         /// <summary>
+        /// The per-user Pictures folder.
+        /// Defaults to &quot;%USERPROFILE%\Pictures&quot;.
+        /// </summary>
+        public static KnownFolder Pictures => GetInstance(KnownFolderType.Pictures);
+
+        /// <summary>
         /// The per-user Pictures library. Introduced in Windows 7.
         /// Defaults to &quot;%APPDATA%\Microsoft\Windows\Libraries\Pictures.library-ms&quot;.
         /// </summary>
         public static KnownFolder PicturesLibrary => GetInstance(KnownFolderType.PicturesLibrary);
 
         /// <summary>
-        /// The per-user Pictures folder.
+        /// The per-user localized Pictures folder.
         /// Defaults to &quot;%USERPROFILE%\Pictures&quot;.
         /// </summary>
-        public static KnownFolder Pictures => GetInstance(KnownFolderType.Pictures);
+        public static KnownFolder PicturesLocalized => GetInstance(KnownFolderType.PicturesLocalized);
 
         /// <summary>
         /// The per-user Playlists folder.
@@ -588,6 +646,12 @@ namespace Syroot.Windows.IO
         /// Defaults to &quot;%APPDATA%\Microsoft\Windows\Libraries\Videos.library-ms&quot;.
         /// </summary>
         public static KnownFolder VideosLibrary => GetInstance(KnownFolderType.VideosLibrary);
+
+        /// <summary>
+        /// The per-user localized Videos folder.
+        /// Defaults to &quot;%USERPROFILE%\Videos&quot;.
+        /// </summary>
+        public static KnownFolder VideosLocalized => GetInstance(KnownFolderType.VideosLocalized);
 
         /// <summary>
         /// The fixed Windows folder.

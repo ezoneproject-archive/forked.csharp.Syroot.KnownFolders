@@ -6,7 +6,7 @@
         <LangVersion>latest</LangVersion>
         <OutputType>Exe</OutputType>
         <TargetFrameworks>net452</TargetFrameworks>
-        <VersionPrefix>1.1.0</VersionPrefix>
+        <VersionPrefix>1.2.0</VersionPrefix>
     </PropertyGroup>
     <ItemGroup>
       <ProjectReference Include="..\Syroot.KnownFolders\Syroot.KnownFolders.csproj" />

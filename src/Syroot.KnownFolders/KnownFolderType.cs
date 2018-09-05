@@ -25,6 +25,38 @@ namespace Syroot.Windows.IO
         AdminTools,
 
         /// <summary>
+        /// The per-user app desktop folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\Desktop&quot;.
+        /// </summary>
+        [KnownFolderGuid("B2C5E279-7ADD-439F-B28C-C41FE1BBF672")]
+        AppDataDesktop,
+
+        /// <summary>
+        /// The per-user app documents folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\Documents&quot;.
+        /// </summary>
+        [KnownFolderGuid("7BE16610-1F7F-44AC-BFF0-83E15F2FFCA1")]
+        AppDataDocuments,
+
+        /// <summary>
+        /// The per-user app favorites folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\Favorites&quot;.
+        /// </summary>
+        [KnownFolderGuid("7CFBEFBC-DE1F-45AA-B843-A542AC536CC9")]
+        AppDataFavorites,
+
+        /// <summary>
+        /// The per-user app program data folder, used internally by .NET applications to perform cross-platform app
+        /// functionality. Introduced in Windows 10.
+        /// Defaults to &quot;%LOCALAPPDATA%\ProgramData&quot;.
+        /// </summary>
+        [KnownFolderGuid("559D40A3-A036-40FA-AF61-84CB430A4D34")]
+        AppDataProgramData,
+
+        /// <summary>
         /// The per-user Application Shortcuts folder. Introduced in Windows 8.
         /// Defaults to &quot;%LOCALAPPDATA%\Microsoft\Windows\Application Shortcuts&quot;.
         /// </summary>
@@ -130,11 +162,25 @@ namespace Syroot.Windows.IO
         DocumentsLibrary,
 
         /// <summary>
+        /// The per-user localized Documents folder.
+        /// Defaults to &quot;%USERPROFILE%\Documents&quot;.
+        /// </summary>
+        [KnownFolderGuid("F42EE2D3-909F-4907-8871-4C22FC0BF756")]
+        DocumentsLocalized,
+
+        /// <summary>
         /// The per-user Downloads folder.
         /// Defaults to &quot;%USERPROFILE%\Downloads&quot;.
         /// </summary>
         [KnownFolderGuid("374DE290-123F-4565-9164-39C4925E467B")]
         Downloads,
+
+        /// <summary>
+        /// The per-user localized Downloads folder.
+        /// Defaults to &quot;%USERPROFILE%\Downloads&quot;.
+        /// </summary>
+        [KnownFolderGuid("7d83ee9b-2244-4e70-b1f5-5393042af1e4")]
+        DownloadsLocalized,
 
         /// <summary>
         /// The per-user Favorites folder.
@@ -228,11 +274,25 @@ namespace Syroot.Windows.IO
         MusicLibrary,
 
         /// <summary>
+        /// The per-user localized Music folder.
+        /// Defaults to &quot;%USERPROFILE%\Music&quot;.
+        /// </summary>
+        [KnownFolderGuid("A0C69A99-21C8-4671-8703-7934162FCF1D")]
+        MusicLocalized,
+
+        /// <summary>
         /// The per-user Network Shortcuts folder.
         /// Defaults to &quot;%APPDATA%\Microsoft\Windows\Network Shortcuts&quot;.
         /// </summary>
         [KnownFolderGuid("C5ABBF53-E17F-4121-8900-86626FC2C973")]
         NetHood,
+
+        /// <summary>
+        /// The per-user 3D Objects folder. Introduced in Windows 10.
+        /// Defaults to &quot;%USERPROFILE%\3D Objects&quot;.
+        /// </summary>
+        [KnownFolderGuid("31C0DD25-9439-4F12-BF41-7FF4EDA38722")]
+        Objects3D,
 
         /// <summary>
         /// The per-user Original Images folder. Introduced in Windows Vista.
@@ -261,6 +321,13 @@ namespace Syroot.Windows.IO
         /// </summary>
         [KnownFolderGuid("33E28130-4E1E-4676-835A-98395C3BC3BB")]
         Pictures,
+
+        /// <summary>
+        /// The per-user localized Pictures folder.
+        /// Defaults to &quot;%USERPROFILE%\Pictures&quot;.
+        /// </summary>
+        [KnownFolderGuid("0DDD015D-B06C-45D5-8C4C-F59713854639")]
+        PicturesLocalized,
 
         /// <summary>
         /// The per-user Playlists folder.
@@ -679,6 +746,13 @@ namespace Syroot.Windows.IO
         /// </summary>
         [KnownFolderGuid("491E922F-5643-4AF4-A7EB-4E7A138D8174")]
         VideosLibrary,
+
+        /// <summary>
+        /// The per-user localized Videos folder.
+        /// Defaults to &quot;%USERPROFILE%\Videos&quot;.
+        /// </summary>
+        [KnownFolderGuid("35286A68-3C57-41A1-BBB1-0EAE73D76C95")]
+        VideosLocalized,
 
         /// <summary>
         /// The fixed Windows folder.
