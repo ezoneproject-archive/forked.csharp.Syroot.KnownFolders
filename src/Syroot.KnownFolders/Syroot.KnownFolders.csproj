@@ -7,15 +7,15 @@
         <Description>.NET library for retrieving and changing all special Windows folder paths.</Description>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <LangVersion>latest</LangVersion>
-        <PackageIconUrl>https://raw.githubusercontent.com/Syroot/KnownFolders/master/res/Logo.png</PackageIconUrl>
+        <PackageIconUrl>https://gitlab.com/Syroot/KnownFolders/blob/master/res/icon.png</PackageIconUrl>
         <PackageId>Syroot.Windows.IO.KnownFolders</PackageId>
-        <PackageLicenseUrl>https://raw.githubusercontent.com/Syroot/KnownFolders/master/LICENSE</PackageLicenseUrl>
-        <PackageProjectUrl>https://github.com/Syroot/KnownFolders</PackageProjectUrl>
+        <PackageLicenseUrl>https://gitlab.com/Syroot/KnownFolders/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://gitlab.com/Syroot/KnownFolders</PackageProjectUrl>
         <PackageReleaseNotes>Added folders introduced with Windows 10.</PackageReleaseNotes>
         <PackageTags>windows;shell;special folder;folder;folders</PackageTags>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/Syroot/KnownFolders</RepositoryUrl>
+        <RepositoryUrl>https://gitlab.com/Syroot/KnownFolders</RepositoryUrl>
         <TargetFrameworks>net452</TargetFrameworks>
-        <VersionPrefix>1.2.0</VersionPrefix>
+        <Version>1.2.1</Version>
     </PropertyGroup>
 </Project>
