@@ -10,7 +10,7 @@ To read more about why most of the "lazy" solutions are wrong, have a look at my
 
 ## Usage
 
-Needless to say, install the NuGet package from the [NuGet gallery](https://www.nuget.org/packages/Syroot.Windows.IO.KnownFolders) first.
+Needless to say, install the NuGet package from the [NuGet gallery](https://www.nuget.org/packages/Syroot.Windows.IO.KnownFolders) first. If you require a signed package, also install the [StrongNamer](https://www.nuget.org/packages/strongnamer) package.
 
 The starting point is a `KnownFolder` instance, which represents exactly one special folder. It offers access to the following:
 
@@ -27,8 +27,6 @@ To retrieve a `KnownFolder` instance, there are two ways, depending on what you 
 The [test application code](https://gitlab.com/Syroot/KnownFolders/tree/master/src/Syroot.KnownFolders.Scratchpad) shows how to enumerate all known folders of a Windows system.
 
 Please note that the CodeProject article linked above shows a different API, I polished it for this NuGet package to be more object-oriented as it also provides more features.
-
-NOTE: If you have a signed application also install https://www.nuget.org/packages/strongnamer to prevent a runtime error "strongly-named assembly is required"
 
 ## Support
 
